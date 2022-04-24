@@ -1,0 +1,20 @@
+#weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  border: 2px solid rgba(5, 5, 5, 0.427);
+  background-color: rgba(255, 255, 255, 0.623);
+  border-radius: 1.5rem;
+  top: 10px;
+  right: 5px;
+  color: rgb(127, 121, 121);
+  font-weight: 500;
+}
+#weather span:last-child {
+  margin-top: 15px;
+}
